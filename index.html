@@ -11,57 +11,104 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <h1 class="headerTitle">Анна Михайлова</h1>
         <p class="headerSubTitle">фрилансер, художник, веб-дизайнер</p>
         <div class="headerArrow">
             <img src="./image/header/arrow.svg" alt="Arrow">
         </div>
-    </div>
+    </header>
 
-    <div class="portfolio">
+    <main>
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="portfolioHeader">Портфолио</h2>
+
+                <!-- portfolio-cards-wrapper -->
+                <div class="portfolio-cards-wrapper">
+
+                    <!-- Card -->
+                    <div class="card">
+                        <a href="works.html" class="cardLink">
+                            <img class="cardImg" src="./image/portfolio/cart.jpg" alt="Card1">
+                            <h3 class="cardTitle">Карточка с котиком</h3>
+                            <p>Дизайн лендинга</p>
+                        </a>
+                    </div>
+                    <!-- CadrOff -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <a href="works.html" class="cardLink">
+                        <img class="cardImg" src="./image/portfolio/cart2.jpg" alt="Card2">
+                        <h3 class="cardTitle">Карточка с котиком</h3>
+                        <p>Дизайн карточек с котиком и другими животными</p></a>
+                    </div>
+                    <!-- CadrOff -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <a href="works.html" class="cardLink">
+                            <img class="cardImg" src="./image/portfolio/cart3.jpg" alt="Card3">
+                            <h3 class="cardTitle">Карточка с котиком</h3>
+                            <p>Дизайн карточек с котиком и другими животными</p></a>
+                    </div>
+                
+                    <!-- CadrOff -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <a href="works.html" class="cardLink">
+                        <img class="cardImg" src="./image/portfolio/cart4.jpg" alt="Card4">
+                        <h3 class="cardTitle">Карточка с котиком</h3>
+                        <p>Дизайн карточек с котиком и другими животными</p></a>
+                    </div>
+                    <!-- CadrOff -->
+
+                </div>
+                <!-- //portfolio-cards-wrapper -->
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer class="footer">
         <div class="container">
-            <h2 class="portfolioHeader">Портфолио</h2>
-
-            <!-- portfolio-cards-wrapper -->
-            <div class="portfolio-cards-wrapper">
-
-                <!-- Card -->
-                <div class="card">
-                    <img class="cardImg" src="./image/portfolio/cart.jpg" alt="Card1">
-                    <h3 class="cardTitle">Карточка с котиком</h3>
-                    <p>Дизайн карточек с котиком и другими животными</p>
+            <div class="footerRow">
+                <div class="footerCopyright">
+                    <div class="footerCopyrightName"> © Анна Михайлова</div>
+                    <p>HTML верстка и дизайн сайтов</p>
                 </div>
-                <!-- CadrOff -->
+                <!-- footerIcons -->
+                <div class="footerIcons">
+                    <p>Мои профили в социальных сетях</p>
+                    <div class="footerIconsRow">
+                        <a href="#">
+                            <img src="./image/footer/github.svg" alt="github">
+                        </a>
 
-                <!-- Card -->
-                <div class="card">
-                    <img class="cardImg" src="./image/portfolio/cart2.jpg" alt="Card2">
-                    <h3 class="cardTitle">Карточка с котиком</h3>
-                    <p>Дизайн карточек с котиком и другими животными</p>
+                        <a href="#">
+                            <img src="./image/footer/send.svg" alt="Telegram">
+                        </a>
+                        
+                        <a href="#">
+                            <img src="./image/footer/vk.svg" alt="VK">
+                        </a>
+                        
+                    </div>
                 </div>
-                <!-- CadrOff -->
+                <!-- //footerIcons -->
 
-                <!-- Card -->
-                <div class="card">
-                    <img class="cardImg" src="./image/portfolio/cart3.jpg" alt="Card3">
-                    <h3 class="cardTitle">Карточка с котиком</h3>
-                    <p>Дизайн карточек с котиком и другими животными</p>
+                <div class="footerContacts">
+                    <a href="https://vk.me/annajeckles" class="footerButton">
+                        Связаться Вконтакте
+                    </a>
+                   <p>Напишите мне, чтобы заказать или узнать стоимость верстки вашего проекта.</p>
+                    
                 </div>
-                <!-- CadrOff -->
-
-                <!-- Card -->
-                <div class="card">
-                    <img class="cardImg" src="./image/portfolio/cart4.jpg" alt="Card4">
-                    <h3 class="cardTitle">Карточка с котиком</h3>
-                    <p>Дизайн карточек с котиком и другими животными</p>
-                </div>
-                <!-- CadrOff -->
 
             </div>
-            <!-- //portfolio-cards-wrapper -->
         </div>
-    </div>
+    </footer>
 
 </body>
 </html>
