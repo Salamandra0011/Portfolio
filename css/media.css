@@ -72,6 +72,10 @@
         font-size: 14px;
     }
 
+    .footerIconsRow {
+        text-align: center;
+    }
+
     .footerContacts p {
         font-size: 14px;
         margin: 0;
